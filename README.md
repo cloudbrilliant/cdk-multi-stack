@@ -1,5 +1,35 @@
+# AWS CDK - Using multiple stacks in a single CDK project
 
-# Welcome to your CDK Python project!
+AWS CDK, a framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation.
+
+After learning the basics of CDK, you will quickly reach a point when you will want archiecture and structure your app using one or more CDK stacks within a single CDK project.
+
+Here is basic example of branching out into multiple stacks within the same CDK project.
+
+- CdkMultiStackStack
+- CdkMultiStackStack2
+
+Deploy all stacks
+
+```bash
+cdk deploy --require-approval never --all
+```
+
+Deploy a specific stack
+
+```bash
+cdk deploy --require-approval never CdkMultiStackStack2
+```
+
+## Resources
+
+- [https://docs.aws.amazon.com/cdk/v2/guide/home.html](https://docs.aws.amazon.com/cdk/v2/guide/home.html)
+- [https://docs.aws.amazon.com/cdk/api/v2/python/index.html](https://docs.aws.amazon.com/cdk/api/v2/python/index.html)
+- [https://github.com/aws/aws-cdk](https://github.com/aws/aws-cdk)
+
+---
+
+## Welcome to your CDK Python project (boiler plate)
 
 This is a blank project for CDK development with Python.
 

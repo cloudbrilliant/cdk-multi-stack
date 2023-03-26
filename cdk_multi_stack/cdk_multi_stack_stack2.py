@@ -6,7 +6,7 @@ from aws_cdk import (
 from constructs import Construct
 
 
-class CdkMultiStackStack(Stack):
+class CdkMultiStackStack2(Stack):
     def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
 
@@ -15,6 +15,6 @@ class CdkMultiStackStack(Stack):
         # example resource
         queue = sqs.Queue(
             self,
-            "CdkMultiStackQueue",
+            "CdkMultiStackQueue2",
             visibility_timeout=Duration.seconds(300),
         )
