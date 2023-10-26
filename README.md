@@ -2,7 +2,7 @@
 
 AWS CDK, a framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation.
 
-After learning the basics of CDK, you will quickly reach a point when you will want to archiecture and structure your app using one or more CDK stacks within a single CDK project.
+After learning the basics of CDK, you will quickly reach a point when you will want to architect and structure your app using one or more CDK stacks within a single CDK project.
 
 Here is basic example of branching out into multiple stacks within the same CDK project.
 
